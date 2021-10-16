@@ -1,47 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-header{
+header {
   height: 150px;
 }
 
-ul li{
+ul li {
   display: inline;
 }
 
-.container{
-  width: 960px;
+.container {
+  width: 1200px;
   margin: 0 auto;
 }
 
-.wrapper-header{
+.wrapper-header {
   margin: 20px 0px;
   display: flex;
   justify-content: space-between;
 }
 
-.logo{
+.logo {
   width: 135px;
   height: 106px;
 }
-.navegacao{
+
+.navegacao {
   padding-top: 75px;
   height: 50px;
   font-weight: 400;
 }
 
-.navegacao li{
+.navegacao li a{
   margin-left: 14px;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: #3B4D51;
 }
 
-.bghome img{
+.home img {
   position: absolute;
-  width: 100%;
 }
 
-.menu{
+.menu {
   z-index: 4;
   width: 360px;
   font-size: 48px;
@@ -52,7 +53,7 @@ ul li{
   text-align: right;
 }
 
-.botaomenu{
+.botaomenu {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-size: 18px;
@@ -65,19 +66,71 @@ ul li{
   background: #576E74;
 }
 
-.botoesmenu{
+.botoesmenu {
   z-index: 4;
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
 }
 
-.wrapper-menu{
+.wrapper-menu {
   z-index: 4;
   padding: 77px 0;
-  margin-left: 600px;
+  margin-left: 840px;
   width: 360px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
+
+.menu-produtos {
+  height: 500px;
+}
+.wrapper-produtos{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.produtos-titulo{
+  border-bottom: 5px solid #576E74;
+  text-align: center;
+  line-height: 75px;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 24px;
+  color: #3B4D51;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  border-radius: 3px 3px 3px 3px;
+}
+
+.wrapper-box{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.box-produtos{
+  width: 230px;
+  height: 230px;
+  background: #3B4D51;
+  margin-top: 85px;
+  text-align: center;
+  color: #ffff;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.box-produtos p{
+  word-break: normal;
+  line-height: 20px;
+  font-weight: 200;
+  padding-top: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin: 0 5px;
+}
+
