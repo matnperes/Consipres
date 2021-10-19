@@ -16,6 +16,36 @@ img{
   font-weight: bold;
 }
 
+.introducao{
+  width: 100%;
+  background: #3b4d51;
+  text-transform: uppercase;
+  margin-top: 129px;
+  font-size: 36px;
+  text-align: center;
+  color: #ffff;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  padding: 40px 0;
+}
+
+.introducao p{
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 10px;
+}
+
+.introducao h2::after{
+
+  content: "";
+  display: block;
+  width: 200px;
+  height: 3px;
+  background: #ffff;
+  margin: 0 auto;
+  margin-top: 20px;
+
+}
+
 /*===================HEADER/NAVEGAÇÃO ==================*/
 header{
   position: fixed;
@@ -29,6 +59,7 @@ header{
 header ul li {
   display: inline-block;
 }
+
 
 .wrapper-header {
   display: flex;
@@ -56,6 +87,10 @@ header ul li {
 }
 
 .navegacao li a:hover{
+  border-bottom: 1px solid #3b4d51;
+}
+
+.navegacao li a.secao-ativa{
   border-bottom: 1px solid #3b4d51;
 }
 
@@ -316,6 +351,39 @@ background: #3B4D51;
 color: #D3956C;
 border: 2px solid #D3956C;
 }
+
+/*========ELEGIVEIS==========*/
+.wrapper-elegiveis .contratacao-titulo{
+  margin: 80px 0;
+}
+
+.wrapper-elegiveis .contratacao-titulo::after{
+  content: "";
+  display: block;
+  width: 200px;
+  height: 3px;
+  background: #ffff;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.elegiveis ul{
+  margin-top: 30px;
+}
+
+.elegiveis ul li {
+  color: #ffff; 
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
+ }
+
+.elegiveis{
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+  margin: 0 auto;
+}
+
 
 /*===================MENU DEPOIMENTOS=======================*/
 
