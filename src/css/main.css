@@ -42,8 +42,12 @@ header ul li {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 500;
-  padding: 10px 0 ;
+  padding: 5px 0 ;
   color: #3B4D51;
+}
+
+.navegacao li a:hover{
+  border-bottom: 1px solid #3b4d51;
 }
 
 /*===================HOME/MENU==================*/
@@ -179,7 +183,8 @@ header ul li {
 }
 
 .btn-verde{
-  font-family: 'Open Sans', sans-serif;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 18px;
     color: #ffff;
@@ -194,4 +199,100 @@ header ul li {
   background: #ffff;
   color: #576E74;
   border: 3px solid #576E74;
+}
+
+
+/*===================MENU CONTRATAÇÃO=======================*/
+
+.contratacao{
+  width: 100%;
+  height: 600px;
+  background: #3B4D51;
+  padding: 60px 0;
+}
+
+.contratacao-titulo{
+  display: block;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 24px;
+  color: #ffff;
+  font-family: 'Oswald', Helvetica, sans-serif;
+}
+
+.contratacao-titulo::after{
+  content: "";
+  display: block;
+  width: 200px;
+  height: 3px;
+  background: #D3956C;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.wrapper-contratacao p{
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.wrapper-contratacao .wrapper-box{
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 95px;
+}
+
+.box-contratacao{
+  background-image: url(/src/img/bg/bgsimule.png);
+  width: 280px;
+  height: 280px;
+  text-align: center;
+  padding: 5px;
+  z-index: 4;
+}
+
+.box-contratacao .titulo {
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 24px;
+  color: #3B4D51;
+  font-weight: 500;
+}
+
+.box-contratacao p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.linha{
+  width: 700px;
+  height: 4px;
+  background: #D3956C;
+  position: absolute;
+  margin-top: 120px;
+}
+
+.contratacao .call-to-action p{
+color: #ffff;
+}
+
+.btn-laranja{
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #3B4D51;
+  padding: 10px;
+  text-align: center;
+  background: #D3956C;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.btn-laranja:hover{
+background: #3B4D51;
+color: #D3956C;
+border: 3px solid #D3956C;
 }
