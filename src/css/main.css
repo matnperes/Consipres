@@ -1,10 +1,19 @@
+/*===================ESTILIZAÇÕES GERAIS/IMPORTAÇÕES==================*/
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-/*===================ESTILIZAÇÕES GERAIS/IMPORTAÇÕES==================*/
 .container {
   width: 940px;
   margin: 0 auto;
+}
+
+img{
+  display: block;
+}
+
+.voce{
+  font-weight: bold;
 }
 
 /*===================HEADER/NAVEGAÇÃO ==================*/
@@ -110,6 +119,7 @@ header ul li {
 
 .menu-produtos {
   height: 500px;
+  padding: 60px 0px 0px 0px;
 }
 .wrapper-produtos{
   display: flex;
@@ -118,12 +128,13 @@ header ul li {
 }
 
 .produtos-titulo{
+  display: block;
   text-align: center;
   margin: 0 auto;
-  margin-top: 30px;
   font-size: 24px;
   color: #3B4D51;
   font-family: 'Oswald', Helvetica, sans-serif;
+  text-transform: uppercase;
 }
 
 .produtos-titulo:after{
@@ -169,6 +180,7 @@ header ul li {
   padding-top: 10px;
   height: 90px;
   width: 90px;
+  margin-left: 45px;
 }
 
 .call-to-action {
@@ -198,7 +210,7 @@ header ul li {
 .btn-verde:hover{
   background: #ffff;
   color: #576E74;
-  border: 3px solid #576E74;
+  border: 2px solid #576E74;
 }
 
 
@@ -206,7 +218,6 @@ header ul li {
 
 .contratacao{
   width: 100%;
-  height: 600px;
   background: #3B4D51;
   padding: 60px 0;
 }
@@ -218,6 +229,7 @@ header ul li {
   font-size: 24px;
   color: #ffff;
   font-family: 'Oswald', Helvetica, sans-serif;
+  text-transform: uppercase;
 }
 
 .contratacao-titulo::after{
@@ -243,15 +255,15 @@ header ul li {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding-top: 95px;
+  padding-top: 85px;
 }
 
 .box-contratacao{
-  background-image: url(/src/img/bg/bgsimule.png);
+  background: #D3956C;
   width: 280px;
   height: 280px;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
   z-index: 4;
 }
 
@@ -263,7 +275,15 @@ header ul li {
 }
 
 .box-contratacao p{
+  margin-top: 40px;
   font-family: 'Open Sans', sans-serif;
+  height: 100px;
+}
+
+.box-contratacao img{
+  width: 90px;
+  height: 70px;
+  margin: 20px auto;
 }
 
 .linha{
@@ -271,7 +291,7 @@ header ul li {
   height: 4px;
   background: #D3956C;
   position: absolute;
-  margin-top: 120px;
+  margin-top: 150px;
 }
 
 .contratacao .call-to-action p{
@@ -294,5 +314,126 @@ color: #ffff;
 .btn-laranja:hover{
 background: #3B4D51;
 color: #D3956C;
-border: 3px solid #D3956C;
+border: 2px solid #D3956C;
+}
+
+/*===================MENU DEPOIMENTOS=======================*/
+
+.depoimentos{
+  padding: 60px 0;
+}
+
+.depoimentos .wrapper-box{
+  padding-top: 85px;
+}
+
+.box-depoimento{
+  padding-top: 50px;
+  padding: 20px;
+  width: 180px;
+  height: 180px;
+  background: #576E74;
+  color: #ffff;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.box-depoimento-alta p{
+  font-style: italic;
+  height: 160px;
+}
+
+.box-depoimento-baixa p{
+  font-style: italic;
+  height: 160px;
+}
+
+.box-depoimento-alta cite{
+  font-weight: bold;
+  font-style: normal;
+}
+.box-depoimento-baixa cite{
+  font-weight: bold;
+  font-style: normal;
+}
+
+.box-depoimento-alta{
+  padding-top: 50px;
+  padding: 20px;
+  width: 180px;
+  height: 180px;
+  background: #576E74;
+  color: #ffff;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.box-depoimento-baixa{
+  padding-top: 50px;
+  padding: 20px;
+  width: 180px;
+  height: 180px;
+  background: #576E74;
+  color: #ffff;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/*====================FOOTER/DIREITOS====================*/
+
+footer{
+  width: 100%;
+  background: #3B4D51;
+  padding: 30px 0;
+}
+
+.titulo-footer{
+  display: inline-block;
+  font-size: 18px;
+  color: #ffff;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  padding: 20px 0;
+}
+
+.container-footer{
+  width: 480px;
+  margin: 0 auto;
+}
+
+.wrapper-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper-footer p{
+  padding: 5px;
+  font-size: 14px;
+  color: #ffff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.redes-sociais span{
+  display: block;
+}
+
+.redes-sociais img{
+  display: inline;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.direitos{
+  width: 100%;
+  height: 30px;
+  padding: 35px 0;
+  font-style: italic;
+  font-size: 12px;
+  text-transform: uppercase;
+  background: #4B4B4B;
+  text-align: center;
+  color: #ffff;
+  font-family: 'Open Sans', sans-serif;
 }
