@@ -1,4 +1,4 @@
-.contato{
+.simule{
   height: 450px;
 }
 
@@ -6,9 +6,12 @@
 display: block;
 border: 2px solid #D3956C;
 border-radius: 2px;
-margin: 15px 0px;
+margin: 10px 0px;
 width: 300px;
 resize: none;
+font-size: 18px;
+height: 30px;
+color: #576E74;
 }
  
 .container form{
@@ -21,14 +24,14 @@ resize: none;
   cursor: pointer;
 }
 
-.wrapper-contato{
+.wrapper-simule{
   padding: 60px;
   display: flex;
   justify-content: space-between;
   color: #3b4d51;
 }
 
-.wrapper-contato .dados h2{
+.wrapper-simule .dados h2{
   font-family: 'Oswald', Helvetica, sans-serif;
   line-height: 35px;
   font-size: 24px;
@@ -42,7 +45,7 @@ resize: none;
   width: 280px;
 }
 
-.wrapper-contato .dados .redes-sociais .titulo-footer{
+.wrapper-simule .dados .redes-sociais .titulo-footer{
   font-family: 'Oswald', Helvetica, sans-serif;
   color: #3b4d51;
 }
