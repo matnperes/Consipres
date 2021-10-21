@@ -1,0 +1,56 @@
+.contato{
+  height: 450px;
+}
+
+.container form input, textarea {
+display: block;
+border: 2px solid #D3956C;
+border-radius: 2px;
+margin: 15px 0px;
+width: 300px;
+resize: none;
+}
+ 
+.container form{
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 18px;
+  width: 350px;
+}
+
+.wrapper-contato{
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  color: #3b4d51;
+}
+
+.wrapper-contato .dados h2{
+  font-family: 'Oswald', Helvetica, sans-serif;
+  line-height: 35px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.dados{
+  line-height: 35px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  width: 280px;
+}
+
+.wrapper-contato .dados .redes-sociais .titulo-footer{
+  font-family: 'Oswald', Helvetica, sans-serif;
+  color: #3b4d51;
+}
+
+.container form button:hover{
+  background: #D3956C;
+  color: #fff;
+}
+
+.container form button{
+  background: #fff;
+  color: #D3956C;
+  border: 1px solid #D3956C;
+  padding: 8px;
+}
