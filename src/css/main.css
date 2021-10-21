@@ -384,6 +384,10 @@ border: 2px solid #D3956C;
   margin: 0 auto;
 }
 
+.elegiveis img{
+  border-radius: 6px;
+}
+
 
 /*===================MENU DEPOIMENTOS=======================*/
 
