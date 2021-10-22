@@ -2,7 +2,7 @@
   height: 450px;
 }
 
-.container form input, textarea {
+.container form input{
 display: block;
 border: 2px solid #D3956C;
 border-radius: 2px;

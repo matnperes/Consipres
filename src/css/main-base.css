@@ -1,0 +1,511 @@
+/*===================ESTILIZAÇÕES GERAIS/IMPORTAÇÕES==================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+img{
+  display: block;
+}
+
+.voce{
+  font-weight: bold;
+}
+
+.introducao{
+  width: 100%;
+  background: #3b4d51;
+  text-transform: uppercase;
+  margin-top: 129px;
+  font-size: 36px;
+  text-align: center;
+  color: #ffff;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  padding: 40px 0;
+}
+
+.introducao p{
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 10px;
+}
+
+.introducao h2::after{
+
+  content: "";
+  display: block;
+  width: 200px;
+  height: 3px;
+  background: #ffff;
+  margin: 0 auto;
+  margin-top: 20px;
+
+}
+
+/*===================HEADER/NAVEGAÇÃO ==================*/
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #ffff;
+  width: 100%;
+  z-index: 5;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+
+.wrapper-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img{
+  width: 135px;
+  height: 105px;
+  padding: 10px 0;
+}
+
+.navegacao {
+  margin-top: 65px;
+  font-weight: 400;
+}
+
+.navegacao li a{
+  margin-left: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px 0 ;
+  color: #3B4D51;
+}
+
+.navegacao li a:hover{
+  border-bottom: 1px solid #3b4d51;
+}
+
+.navegacao li a.secao-ativa{
+  border-bottom: 1px solid #3b4d51;
+}
+
+/*===================HOME/MENU==================*/
+
+.home{
+  width: 100%;
+  background-image: url(/src/img/bg/bghome.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 129px;
+}
+
+.menu {
+  z-index: 4;
+  width: 360px;
+  font-size: 48px;
+  line-height: 65px;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-weight: 700;
+  color: #3B4D51;
+  text-align: right;
+}
+
+.botaomenu {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffff;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+  height: 26.9px;
+  background: #576E74;
+}
+
+.botoesmenu {
+  z-index: 4;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.botaomenu:hover{
+  color: #3B4D51;
+  background: #ffff;
+}
+
+.wrapper-menu {
+  z-index: 4;
+  padding: 75px 0;
+  margin-left: 580px;
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+/*===================PRODUTOS==================*/
+
+.menu-produtos {
+  height: 500px;
+  padding: 60px 0px 0px 0px;
+}
+.wrapper-produtos{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.produtos-titulo{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 24px;
+  color: #3B4D51;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.produtos-titulo:after{
+  content: "";
+  display: block;
+  width: 200px;
+  height: 3px;
+  background: #3b4d51;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.wrapper-box{
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.box-produtos{
+  width: 180px;
+  height: 180px;
+  background: #3B4D51;
+  margin-top: 75px;
+  text-align: center;
+  color: #ffff;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.box-produtos p{
+  word-break: normal;
+  line-height: 20px;
+  font-weight: 200;
+  padding-top: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin: 0 5px;
+}
+
+.produtos-img{
+  padding-top: 10px;
+  height: 90px;
+  width: 90px;
+  margin-left: 45px;
+}
+
+.call-to-action {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.call-to-action p{
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.btn-verde{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffff;
+    padding: 10px;
+    text-align: center;
+    background: #576E74;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.btn-verde:hover{
+  background: #ffff;
+  color: #576E74;
+  border: 2px solid #576E74;
+}
+
+
+/*===================MENU CONTRATAÇÃO=======================*/
+
+.contratacao{
+  width: 100%;
+  background: #3B4D51;
+  padding: 60px 0;
+}
+
+.contratacao-titulo{
+  display: block;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 24px;
+  color: #ffff;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.contratacao-titulo::after{
+  content: "";
+  display: block;
+  width: 200px;
+  height: 3px;
+  background: #D3956C;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.wrapper-contratacao p{
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.wrapper-contratacao .wrapper-box{
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 85px;
+}
+
+.box-contratacao{
+  background: #D3956C;
+  width: 280px;
+  height: 280px;
+  text-align: center;
+  padding: 10px;
+  z-index: 4;
+}
+
+.box-contratacao .titulo {
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 24px;
+  color: #3B4D51;
+  font-weight: 500;
+}
+
+.box-contratacao p{
+  margin-top: 40px;
+  font-family: 'Open Sans', sans-serif;
+  height: 100px;
+}
+
+.box-contratacao img{
+  width: 90px;
+  height: 70px;
+  margin: 20px auto;
+}
+
+.linha{
+  width: 700px;
+  height: 4px;
+  background: #D3956C;
+  position: absolute;
+  margin-top: 150px;
+}
+
+.contratacao .call-to-action p{
+color: #ffff;
+}
+
+.btn-laranja{
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #3B4D51;
+  padding: 10px;
+  text-align: center;
+  background: #D3956C;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.btn-laranja:hover{
+background: #3B4D51;
+color: #D3956C;
+border: 2px solid #D3956C;
+}
+
+/*========ELEGIVEIS==========*/
+.wrapper-elegiveis .contratacao-titulo{
+  margin: 80px 0;
+}
+
+.wrapper-elegiveis .contratacao-titulo::after{
+  content: "";
+  display: block;
+  width: 200px;
+  height: 3px;
+  background: #ffff;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.elegiveis ul{
+  margin-top: 30px;
+}
+
+.elegiveis ul li {
+  color: #ffff; 
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
+ }
+
+.elegiveis{
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+  margin: 0 auto;
+}
+
+.elegiveis img{
+  border-radius: 6px;
+}
+
+
+/*===================MENU DEPOIMENTOS=======================*/
+
+.depoimentos{
+  padding: 60px 0;
+}
+
+.depoimentos .wrapper-box{
+  padding-top: 85px;
+}
+
+.box-depoimento{
+  padding-top: 50px;
+  padding: 20px;
+  width: 180px;
+  height: 180px;
+  background: #576E74;
+  color: #ffff;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.box-depoimento-alta p{
+  font-style: italic;
+  height: 160px;
+}
+
+.box-depoimento-baixa p{
+  font-style: italic;
+  height: 160px;
+}
+
+.box-depoimento-alta cite{
+  font-weight: bold;
+  font-style: normal;
+}
+.box-depoimento-baixa cite{
+  font-weight: bold;
+  font-style: normal;
+}
+
+.box-depoimento-alta{
+  padding-top: 50px;
+  padding: 20px;
+  width: 180px;
+  height: 180px;
+  background: #576E74;
+  color: #ffff;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.box-depoimento-baixa{
+  padding-top: 50px;
+  padding: 20px;
+  width: 180px;
+  height: 180px;
+  background: #576E74;
+  color: #ffff;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/*====================FOOTER/DIREITOS====================*/
+
+footer{
+  width: 100%;
+  background: #3b4d51;
+  padding: 30px 0;
+}
+
+.titulo-footer{
+  display: inline-block;
+  font-size: 18px;
+  color: #ffff;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  padding: 20px 0;
+}
+
+.container-footer{
+  width: 480px;
+  margin: 0 auto;
+}
+
+.wrapper-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper-footer p{
+  padding: 5px;
+  font-size: 14px;
+  color: #ffff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.redes-sociais span{
+  display: block;
+}
+
+.redes-sociais img{
+  display: inline;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.direitos{
+  width: 100%;
+  height: 30px;
+  padding: 30px 0;
+  font-style: italic;
+  font-size: 12px;
+  text-transform: uppercase;
+  background: #2E2E2E;
+  text-align: center;
+  color: #ffff;
+  font-family: 'Open Sans', sans-serif;
+}
