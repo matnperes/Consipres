@@ -80,12 +80,12 @@
 
 .container{
   width: 300px;
-  }
-  
-  .introducao{
-  margin-top: 0px;
-  }
-  
+}
+
+.introducao{
+  margin-top: 0px;  
+}
+
 /*HEADER*/
 header{
   position: relative;
@@ -132,10 +132,39 @@ header{
 
 .home{
   margin-top: 0px;
+  background: none;
+  background-repeat: no-repeat;
 }
 
 .wrapper-menu {
-  margin-left: 408px;
+  margin-left: 0px;
+  width: 100%;
+  flex-direction: column;
+}
+
+.menu{
+  width: 300px;
+  font-size: 36px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.botaomenu {
+  color: #ffff;
+  padding: 15px;
+  text-align: center;
+  width: 100px;
+  height: 36px;
+  background: #576E74;
+}
+
+.botoesmenu {
+  z-index: 4;
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
 }
 
 /*PRODUTOS*/
@@ -196,11 +225,6 @@ header{
 
 /*DEPOIMENTOS*/
 
-.depoimentos{
-width: 300px;
-}
-
-
 .box-depoimento-alta{
   padding: 10px;
   width: 200px;
@@ -212,7 +236,7 @@ width: 300px;
   padding: 10px;
   width: 200px;
   height: 200px;
-  margin: 0 auto;
+  margin: 5px auto;
 }
 
 .box-depoimento-alta p{
@@ -227,5 +251,24 @@ width: 300px;
   margin-left: 0px;
 }
 
+/*FOOTER*/
+
+.container-footer{
+  width: 300px;
+  margin: 0 auto;
+}
+
+.wrapper-footer p{
+  padding: 5px 0px;
+}
+
+.redes-sociais img{
+  width: 25px;
+  height: 25px;
+}
+
+.direitos{
+  height: 20px;
+}
 
 }
