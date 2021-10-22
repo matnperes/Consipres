@@ -1,0 +1,231 @@
+@media only screen and (min-width: 768px) and (max-width: 959px){
+.container{
+  width: 768px;
+}
+
+
+.wrapper-box{
+  width: 748px;
+}
+
+.box-produtos{
+  width: 130px;
+  height: 130px;
+  font-size: 18px;
+}
+
+.produtos-img{
+  padding-top: 0px;
+  height: 60px;
+  width: 60px;
+  margin-left: 30px;
+}
+
+
+.wrapper-menu {
+  margin-left: 408px;
+}
+
+
+.wrapper-contratacao .wrapper-box{
+  width: 768px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.box-contratacao{
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.linha{
+  width: 4px;
+  height: 700px;
+  background: #D3956C;
+  position: absolute;
+  right: 470px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.box-depoimento-alta{
+  padding: 10px;
+  width: 160px;
+  height: 250px;
+}
+
+.box-depoimento-baixa{
+
+  padding: 10px;
+  width: 160px;
+  height: 250px;
+}
+
+.box-depoimento-alta p{
+  margin-bottom: 35px;
+}
+
+.box-depoimento-baixa p{
+  margin-bottom: 35px;
+}
+
+.parceiros img {
+  margin-left: 0px;
+}
+
+}
+
+@media only screen and (max-width: 767px){
+
+
+.container{
+  width: 300px;
+  }
+  
+  .introducao{
+  margin-top: 0px;
+  }
+  
+/*HEADER*/
+header{
+  position: relative;
+}
+
+.logo img{
+  width: 135px;
+  margin: 0 auto;
+}
+
+
+.wrapper-header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.navegacao {
+  text-align: center;
+  width: 300px;
+  margin: 15px 0;
+  font-weight: 400;
+}
+
+.navegacao li {
+  margin: 10px;
+}
+
+.navegacao li a{
+  margin: 0 auto;
+  margin-left: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 5px 0;
+  color: #3B4D51;
+}
+
+.navegacao li a.secao-ativa{
+  border-bottom: 0px solid #3b4d51;
+}
+
+/*HOME*/
+
+.home{
+  margin-top: 0px;
+}
+
+.wrapper-menu {
+  margin-left: 408px;
+}
+
+/*PRODUTOS*/
+.wrapper-box{
+  width: 280px;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.menu-produtos {
+  height: 900px;
+  padding: 60px 0px 0px 0px;
+}
+
+.box-produtos{
+  width: 130px;
+  height: 130px;
+  font-size: 18px;
+  margin: 2px auto;
+}
+
+.produtos-img{
+  padding-top: 0px;
+  height: 60px;
+  width: 60px;
+  margin-left: 30px;
+}
+
+/*CONTRATACAO*/
+
+.wrapper-contratacao .wrapper-box{
+  width: 300px;
+  margin: 0 auto;
+  flex-direction: column-reverse;
+}
+
+.box-contratacao{
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.box-contratacao img{
+  width: 70px;
+  height: 54px;
+  margin: 20px auto;
+}
+
+.linha{
+  width: 4px;
+  height: 700px;
+  background: #D3956C;
+  position: absolute;
+  right: 185px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+/*DEPOIMENTOS*/
+
+.depoimentos{
+width: 300px;
+}
+
+
+.box-depoimento-alta{
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.box-depoimento-baixa{
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.box-depoimento-alta p{
+  margin-bottom: 15px;
+}
+
+.box-depoimento-baixa p{
+  margin-bottom: 15px;
+}
+
+.parceiros img {
+  margin-left: 0px;
+}
+
+
+}

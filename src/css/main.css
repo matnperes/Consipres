@@ -10,6 +10,7 @@
 
 img{
   display: block;
+  max-width: 100%;
 }
 
 .voce{
@@ -97,7 +98,6 @@ header ul li {
 /*===================HOME/MENU==================*/
 
 .home{
-  width: 100%;
   background-image: url(/src/img/bg/bghome.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -188,6 +188,7 @@ header ul li {
   display: flex;
   justify-content: space-between;
 }
+
 .box-produtos{
   width: 180px;
   height: 180px;
@@ -212,7 +213,6 @@ header ul li {
 }
 
 .produtos-img{
-  padding-top: 10px;
   height: 90px;
   width: 90px;
   margin-left: 45px;
@@ -278,15 +278,15 @@ header ul li {
 }
 
 .wrapper-contratacao p{
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   color: #ffff;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .wrapper-contratacao .wrapper-box{
-  width: 940px;
+  width: 300px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
