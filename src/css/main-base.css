@@ -60,7 +60,6 @@ header ul li {
   display: inline-block;
 }
 
-
 .wrapper-header {
   display: flex;
   justify-content: space-between;
@@ -126,6 +125,7 @@ header ul li {
   width: 150px;
   height: 26.9px;
   background: #576E74;
+  border-radius: 15px;
 }
 
 .botoesmenu {
@@ -188,6 +188,7 @@ header ul li {
   display: flex;
   justify-content: space-between;
 }
+
 .box-produtos{
   width: 180px;
   height: 180px;
@@ -199,6 +200,20 @@ header ul li {
   font-weight: normal;
   font-size: 20px;
   line-height: 50px;
+  border-radius: 15px;
+  animation: down 0.7s forwards;
+}
+
+@keyframes down{
+  from{
+    opacity: 0;
+    max-height: 0;
+  }
+  to{
+    opacity: 1;
+    max-height: 200px;
+  }
+
 }
 
 .box-produtos p{
@@ -240,6 +255,7 @@ header ul li {
     background: #576E74;
     width: 150px;
     margin: 0 auto;
+    border-radius: 15px;
 }
 
 .btn-verde:hover{
@@ -300,6 +316,7 @@ header ul li {
   text-align: center;
   padding: 10px;
   z-index: 4;
+  border-radius: 15px;
 }
 
 .box-contratacao .titulo {
@@ -408,28 +425,29 @@ border: 2px solid #D3956C;
   color: #ffff;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+  border-radius: 15px;
 }
 
-.box-depoimento-alta p{
+.box-depoimento .alta p{
   font-style: italic;
   height: 160px;
 }
 
-.box-depoimento-baixa p{
+.box-depoimento.baixa p{
   font-style: italic;
   height: 160px;
 }
 
-.box-depoimento-alta cite{
+.box-depoimento.alta cite{
   font-weight: bold;
   font-style: normal;
 }
-.box-depoimento-baixa cite{
+.box-depoimento.baixa cite{
   font-weight: bold;
   font-style: normal;
 }
 
-.box-depoimento-alta{
+.box-depoimento.alta{
   padding-top: 50px;
   padding: 20px;
   width: 180px;
@@ -441,7 +459,7 @@ border: 2px solid #D3956C;
   margin-bottom: 50px;
 }
 
-.box-depoimento-baixa{
+.box-depoimento.baixa{
   padding-top: 50px;
   padding: 20px;
   width: 180px;
